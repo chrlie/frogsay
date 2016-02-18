@@ -18,7 +18,7 @@ requirements = [
 
 setup(name='frogsay',
       version=__version__,
-      description='An ASCII FROG reads you a tip',
+      description='An ASCII frog prints a handy FROG tip on the command line.',
       long_description=long_description,
       classifiers=[],
       keywords='FROG CROAK',
