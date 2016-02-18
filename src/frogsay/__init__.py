@@ -3,6 +3,7 @@ import os
 
 import click
 
+from frogsay.version import __version__
 from frogsay.client import open_client
 from frogsay.speech import make_frog_fresco
 
@@ -12,6 +13,7 @@ def get_cache_file(app_name='frogsay'):
 
 
 @click.command()
+@click.version_option(version=__version__)
 def cli():
     """\
     Frogsay generates an ASCII picture of a FROG spouting a FROG tip.
