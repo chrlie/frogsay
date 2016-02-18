@@ -12,8 +12,8 @@ with codecs_open('{0}/frogsay/version.py'.format(src_dir), encoding='utf-8') as 
     exec(file.read())
 
 requirements = [
-    'click',
-    'python-RIBBIT',
+    'click == 6.2',
+    'python-RIBBIT == 1.0.2.dev0',
 ]
 
 setup(name='frogsay',

@@ -1,2 +1,2 @@
 click == 6.2
-python-RIBBIT == 1.0.1
+python-RIBBIT == 1.0.2.dev0
