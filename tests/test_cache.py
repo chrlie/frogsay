@@ -24,6 +24,9 @@ def test_cache_can_delete():
 
     with tempfile.NamedTemporaryFile() as file:
         with Cache(file.name) as cache:
+            cache[key] = value
+
+        with Cache(file.name) as cache:
             del cache[key]
 
         with Cache(file.name) as cache:
