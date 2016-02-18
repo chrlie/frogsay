@@ -40,7 +40,6 @@ class Cache(object):
             pass
 
         self._cache = shelve.open(self._cache_file)
-
         return self._cache
 
     def __exit__(self, *ex_info):
