@@ -1,6 +1,14 @@
 import contextlib
 import os
 import random
+
+try:
+    # OS X apparently lacks gdbm and will fail unless we monkey-patch it
+    import anydbm
+    anydbm.__defaultmod = __import__('dumbdbm')
+except:
+    pass
+
 import shelve
 
 from RIBBIT.client import RIBBITClient
@@ -32,6 +40,7 @@ class Cache(object):
             pass
 
         self._cache = shelve.open(self._cache_file)
+
         return self._cache
 
     def __exit__(self, *ex_info):
