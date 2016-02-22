@@ -15,6 +15,9 @@ Frogsay
  ^^ ~~ ^^
 
 
+ .. image:: https://badge.fury.io/py/frogsay.svg
+     :target: https://badge.fury.io/py/frogsay
+
 -----------
 Quick start
 -----------
@@ -28,3 +31,8 @@ then
 ::
 
     frogsay
+
+or you can obviously do something like
+
+.. image:: example.png
+    :alt: frogsay | lolcat
