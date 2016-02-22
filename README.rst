@@ -15,7 +15,7 @@ Frogsay
  ^^ ~~ ^^
 
 
- .. image:: https://badge.fury.io/py/frogsay.svg
+.. image:: https://badge.fury.io/py/frogsay.svg
      :target: https://badge.fury.io/py/frogsay
 
 -----------
