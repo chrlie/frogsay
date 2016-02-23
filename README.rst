@@ -14,9 +14,8 @@ Frogsay
  ( >__< )
  ^^ ~~ ^^
 
-
-.. image:: https://badge.fury.io/py/frogsay.svg
-     :target: https://badge.fury.io/py/frogsay
+.. image:: https://img.shields.io/pypi/v/frogsay.svg
+    :target: https://pypi.python.org/pypi/frogsay
 
 -----------
 Quick start
