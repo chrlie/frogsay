@@ -17,8 +17,8 @@ Frogsay
 .. image:: https://img.shields.io/pypi/v/frogsay.svg
     :target: https://pypi.python.org/pypi/frogsay
 
-.. image:: https://travis-ci.org/clibc/frogsay.svg?branch=master
-    :target: https://travis-ci.org/clibc/frogsay
+.. image:: https://travis-ci.org/chrlie/frogsay.svg?branch=master
+    :target: https://travis-ci.org/chrlie/frogsay
 
 -----------
 Quick start
